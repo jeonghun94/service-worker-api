@@ -18,5 +18,6 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Course[]>
 ) {
+  console.log(1);
   res.status(200).json(CLASS_INFO);
 }

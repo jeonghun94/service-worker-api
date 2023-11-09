@@ -2,6 +2,13 @@ const imagedelivery = (url: string) => {
   return `https://imagedelivery.net/jhi2XPYSyyyjQKL_zc893Q/${url}/public`;
 };
 
+const URL =
+  process.env.NODE_ENV === "development"
+    ? "http://localhost:3000"
+    : "https://service-worker-api.vercel.app";
+
+console.log("isDevelopment", URL);
+
 export const CLASS_INFO = [
   {
     courseName: "프로그래밍 기초",
@@ -15,22 +22,20 @@ export const CLASS_INFO = [
     courseThumbnail: imagedelivery("70289684-e162-4336-f465-9976c78efe00"),
     contents: {
       images: [
-        "http://localhost:3000/1.png",
-        "http://localhost:3000/2.png",
-        "http://localhost:3000/3.png",
-        "http://localhost:3000/4.png",
-        "http://localhost:3000/5.png",
-        "http://localhost:3000/6.png",
-        "http://localhost:3000/7.png",
-        "http://localhost:3000/8.png",
-        "http://localhost:3000/9.png",
-        "http://localhost:3000/10.png",
-        "http://localhost:3000/11.png",
+        `${URL}/1.png`,
+        `${URL}/2.png`,
+        `${URL}/3.png`,
+        `${URL}/4.png`,
+        `${URL}/5.png`,
+        `${URL}/6.png`,
+        `${URL}/7.png`,
+        `${URL}/8.png`,
+        `${URL}/9.png`,
+        `${URL}/10.png`,
+        `${URL}/11.png`,
       ],
-      videos: [
-        "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
-      ],
-      pdf: ["http://localhost:3000/HR_VueGuide.pdf"],
+      videos: [`${URL}/testVideo.mp4`],
+      pdf: [`${URL}/HR_VueGuide.pdf`],
     },
   },
   {
@@ -44,11 +49,7 @@ export const CLASS_INFO = [
     creationDate: "2023-01-20",
     courseThumbnail: imagedelivery("f92dc5f6-e421-4d85-1310-6cddf408fe00"),
     contents: {
-      images: [
-        "http://localhost:3000/1.png",
-        "http://localhost:3000/2.png",
-        "http://localhost:3000/3.png",
-      ],
+      images: [`${URL}/1.png`, `${URL}/2.png`, `${URL}/3.png`],
       videos: [
         "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
       ],
@@ -66,7 +67,7 @@ export const CLASS_INFO = [
     creationDate: "2023-02-15",
     courseThumbnail: imagedelivery("f92dc5f6-e421-4d85-1310-6cddf408fe00"),
     contents: {
-      images: ["http://localhost:3000/1.png"],
+      images: [`${URL}/1.png`],
       videos: [
         "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
       ],
