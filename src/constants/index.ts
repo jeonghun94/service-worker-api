@@ -1,10 +1,11 @@
 const imagedelivery = (url: string) => {
   return `https://imagedelivery.net/jhi2XPYSyyyjQKL_zc893Q/${url}/public`;
 };
-
+const HOST = process.env.NEXT_PUBLIC_API_HOST || "http://localhost";
+const PORT = process.env.NEXT_PUBLIC_API_PORT || 3000;
 const URL =
   process.env.NODE_ENV === "development"
-    ? "http://localhost:3000"
+    ? `${HOST}:${PORT}`
     : "https://service-worker-api.vercel.app";
 
 console.log("isDevelopment", URL);
@@ -35,6 +36,7 @@ export const CLASS_INFO = [
         `${URL}/11.png`,
       ],
       videos: [`${URL}/testVideo.mp4`],
+      htmls: [`${URL}/testIframe.html`],
       pdf: [`${URL}/HR_VueGuide.pdf`],
     },
   },

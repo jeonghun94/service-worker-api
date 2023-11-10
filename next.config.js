@@ -7,6 +7,11 @@ const cors = Cors({
   allowHeaders: ["Content-Type"], // 허용할 헤더
 });
 const nextConfig = {
+  env: {
+    NEXT_PUBLIC_API_PORT: process.env.NEXT_PUBLIC_API_PORT,
+    NEXT_PUBLIC_API_HOST: process.env.NEXT_PUBLIC_API_HOST,
+  },
+
   reactStrictMode: true,
   rewrites: async () => [
     {
