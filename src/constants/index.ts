@@ -36,7 +36,12 @@ export const CLASS_INFO = [
         `${URL}/11.png`,
       ],
       videos: [`${URL}/testVideo.mp4`],
-      htmls: [`${URL}/testIframe.html`],
+      htmls: [
+        `${URL}/testIframe.html`,
+        `${URL}/testIframe2.html`,
+        `${URL}/testIframe3.html`,
+        // `${URL}/t/e/s/t/index.html`,
+      ],
       pdf: [`${URL}/HR_VueGuide.pdf`],
     },
   },

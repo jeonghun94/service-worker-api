@@ -1,3 +1,3 @@
 window.onload = function () {
-  alert("testIframe.js onload");
+  console.log("testIframe.js onload");
 };
