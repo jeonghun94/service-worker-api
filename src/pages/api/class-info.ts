@@ -3,14 +3,11 @@ import type { NextApiRequest, NextApiResponse } from "next";
 import { CLASS_INFO } from "@/constants";
 
 interface Course {
+  courseCode: string;
   courseName: string;
   instructorName: string;
-  courseCode: string;
   courseDescription: string;
-  courseSchedule: string;
   startDate: string;
-  endDate: string;
-  creationDate: string;
   courseThumbnail: string;
 }
 
