@@ -5,8 +5,6 @@ const URL =
     ? `${HOST}:${PORT}`
     : "https://service-worker-api.vercel.app";
 
-console.log("isDevelopment", URL);
-
 export const CLASS_INFO = [
   {
     courseCode: "C",
@@ -34,7 +32,7 @@ export const CLASS_INFO = [
     instructorName: "라이언 달",
     courseDescription: "영화 제작에 필요한 기술과 기법을 학습합니다.",
     startDate: "2023-11-21",
-    courseThumbnail: `${URL}/16.png`,
+    courseThumbnail: `${URL}/2.png`,
   },
   {
     courseCode: "PYTHON",
@@ -42,7 +40,7 @@ export const CLASS_INFO = [
     instructorName: "귀도 반 로썸",
     courseDescription: "세계 각국의 요리를 마스터하는 수업입니다.",
     startDate: "2023-11-22",
-    courseThumbnail: `${URL}/13.png`,
+    courseThumbnail: `${URL}/3.png`,
   },
 
   {
@@ -66,7 +64,7 @@ export const CLASS_INFO = [
     instructorName: "애플",
     courseDescription: "일상적인 영어 회화 능력을 향상시키는 수업입니다.",
     startDate: "2023-11-21",
-    courseThumbnail: `${URL}/7.png`,
+    courseThumbnail: `${URL}/5.png`,
     contents: {
       images: [
         "https://ssl.pstatic.net/melona/libs/1470/1470132/df1523c6b0ade7192c84_20231031145502709_8.jpg",
@@ -81,7 +79,7 @@ export const CLASS_INFO = [
     courseDescription: "금융 시장에서의 투자 전략을 학습합니다.",
     startDate: "2023-11-25",
 
-    courseThumbnail: `${URL}/10.png`,
+    courseThumbnail: `${URL}/6.png`,
     contents: {
       images: [
         "https://ssl.pstatic.net/melona/libs/1471/1471132/a4f30a12ce0779bd9e07_20231103120727767.jpg",
@@ -94,7 +92,7 @@ export const CLASS_INFO = [
     instructorName: "시모나 비어조니",
     courseDescription: "다양한 사진 촬영 기술을 익히는 수업입니다.",
     startDate: "2023-11-21",
-    courseThumbnail: `${URL}/9.png`,
+    courseThumbnail: `${URL}/7.png`,
   },
 
   {
@@ -103,7 +101,7 @@ export const CLASS_INFO = [
     instructorName: "에반 유",
     courseDescription: "스포츠 관련 마케팅 전략을 학습합니다.",
     startDate: "2023-11-27",
-    courseThumbnail: `${URL}/15.png`,
+    courseThumbnail: `${URL}/8.png`,
   },
   {
     courseCode: "REACT",
@@ -111,7 +109,7 @@ export const CLASS_INFO = [
     instructorName: "페이스북",
     courseDescription: "인공지능의 기초 이론과 응용을 다루는 수업입니다.",
     startDate: "2023-11-28",
-    courseThumbnail: `${URL}/14.png`,
+    courseThumbnail: `${URL}/9.png`,
   },
   {
     courseCode: "JAVA",
@@ -119,7 +117,7 @@ export const CLASS_INFO = [
     instructorName: "제임스 고슬링",
     courseDescription: "웹 디자인의 기초를 배우는 수업입니다.",
     startDate: "2023-11-29",
-    courseThumbnail: `${URL}/12.png`,
+    courseThumbnail: `${URL}/10.png`,
     contents: {
       images: [`${URL}/1.png`, `${URL}/2.png`, `${URL}/3.png`],
       videos: [
