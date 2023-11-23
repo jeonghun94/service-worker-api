@@ -14,13 +14,7 @@ export const CLASS_INFO = [
     startDate: "2023-11-20",
     courseThumbnail: `${URL}/1.png`,
     contents: {
-      images: [
-        `${URL}/1.png`,
-        `${URL}/4.png`,
-        `${URL}/5.png`,
-        `${URL}/7.png`,
-        `${URL}/9.png`,
-      ],
+      images: [`${URL}/1.png`, `${URL}/2.png`, `${URL}/3.png`],
       videos: [`${URL}/testVideo.mp4`],
       htmls: [`${URL}/test/01.html`, `${URL}/test/02.html`],
       pdf: [`${URL}/HR_VueGuide.pdf`],
@@ -33,6 +27,9 @@ export const CLASS_INFO = [
     courseDescription: "영화 제작에 필요한 기술과 기법을 학습합니다.",
     startDate: "2023-11-21",
     courseThumbnail: `${URL}/2.png`,
+    contents: {
+      htmls: [`${URL}/test/01.html`, `${URL}/test/02.html`],
+    },
   },
   {
     courseCode: "PYTHON",
@@ -41,6 +38,9 @@ export const CLASS_INFO = [
     courseDescription: "세계 각국의 요리를 마스터하는 수업입니다.",
     startDate: "2023-11-22",
     courseThumbnail: `${URL}/3.png`,
+    contents: {
+      htmls: [`${URL}/test/01.html`, `${URL}/test/02.html`],
+    },
   },
 
   {
@@ -48,14 +48,13 @@ export const CLASS_INFO = [
     courseName: "모던 자바스크립트",
     instructorName: "브렌던 아이크",
     courseDescription: "실무에서 활용하는 데이터 분석 기술을 학습합니다.",
-    startDate: "2023-11-23",
+    startDate: "2023-11-21",
     courseThumbnail: `${URL}/4.png`,
     contents: {
       images: [`${URL}/1.png`],
       videos: [
         "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
       ],
-      pdf: [],
     },
   },
   {
@@ -63,12 +62,10 @@ export const CLASS_INFO = [
     courseName: "Swift 프로그래밍",
     instructorName: "애플",
     courseDescription: "일상적인 영어 회화 능력을 향상시키는 수업입니다.",
-    startDate: "2023-11-21",
+    startDate: "2023-11-23",
     courseThumbnail: `${URL}/5.png`,
     contents: {
-      images: [
-        "https://ssl.pstatic.net/melona/libs/1470/1470132/df1523c6b0ade7192c84_20231031145502709_8.jpg",
-      ],
+      images: [`${URL}/1.png`],
     },
   },
 
@@ -78,12 +75,9 @@ export const CLASS_INFO = [
     instructorName: "라이언 달",
     courseDescription: "금융 시장에서의 투자 전략을 학습합니다.",
     startDate: "2023-11-25",
-
     courseThumbnail: `${URL}/6.png`,
     contents: {
-      images: [
-        "https://ssl.pstatic.net/melona/libs/1471/1471132/a4f30a12ce0779bd9e07_20231103120727767.jpg",
-      ],
+      images: [`${URL}/1.png`],
     },
   },
   {
@@ -91,7 +85,7 @@ export const CLASS_INFO = [
     courseName: "쉽게 배우는 Django ",
     instructorName: "시모나 비어조니",
     courseDescription: "다양한 사진 촬영 기술을 익히는 수업입니다.",
-    startDate: "2023-11-21",
+    startDate: "2023-11-26",
     courseThumbnail: `${URL}/7.png`,
   },
 
@@ -123,7 +117,6 @@ export const CLASS_INFO = [
       videos: [
         "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
       ],
-      pdf: [],
     },
   },
 ];
