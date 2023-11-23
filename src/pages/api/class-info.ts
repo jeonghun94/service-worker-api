@@ -7,6 +7,5 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Course[]>
 ) {
-  console.log(process.env.NEXT_PUBLIC_API_PORT || 3000);
   res.status(200).json(CLASS_INFO);
 }

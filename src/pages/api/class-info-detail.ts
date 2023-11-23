@@ -7,7 +7,6 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Course[]>
 ) {
-  console.log(req.query);
   res
     .status(200)
     .json(
