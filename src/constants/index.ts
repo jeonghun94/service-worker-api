@@ -16,8 +16,8 @@ export const CLASS_INFO = [
     contents: {
       images: [`${URL}/1.png`, `${URL}/2.png`, `${URL}/3.png`],
       videos: [`${URL}/testVideo.mp4`],
-      htmls: [`${URL}/test/1-1.html`, `${URL}/test/2-1.html`],
       pdf: [`${URL}/HR_VueGuide.pdf`],
+      htmls: [`${URL}/test/1-1.html`, `${URL}/test/1-2.html`],
     },
   },
   {
@@ -28,7 +28,7 @@ export const CLASS_INFO = [
     startDate: "2023-11-25",
     courseThumbnail: `${URL}/2.png`,
     contents: {
-      htmls: [`${URL}/test/2-1.html`],
+      htmls: [`${URL}/test/2-1.html`, `${URL}/test/2-2.html`],
     },
   },
   {
@@ -64,7 +64,7 @@ export const CLASS_INFO = [
     courseThumbnail: `${URL}/5.png`,
     contents: {
       images: [`${URL}/1.png`],
-      htmls: [`${URL}/test/5-1.html`, `${URL}/test/5-2.html`],
+      htmls: [`${URL}/test/5-1.html`],
     },
   },
 
@@ -87,7 +87,7 @@ export const CLASS_INFO = [
     startDate: "2023-11-30",
     courseThumbnail: `${URL}/7.png`,
     contents: {
-      htmls: [`${URL}/test/3-1.html`],
+      htmls: [`${URL}/test/2-1.html`, `${URL}/test/2-2.html`],
     },
   },
 
@@ -99,7 +99,7 @@ export const CLASS_INFO = [
     startDate: "2023-11-31",
     courseThumbnail: `${URL}/8.png`,
     contents: {
-      htmls: [`${URL}/test/4-1.html`],
+      htmls: [`${URL}/test/3-1.html`, `${URL}/test/3-2.html`],
     },
   },
   {
@@ -110,7 +110,7 @@ export const CLASS_INFO = [
     startDate: "2023-12-01",
     courseThumbnail: `${URL}/9.png`,
     contents: {
-      htmls: [`${URL}/test/5-1.html`],
+      htmls: [`${URL}/test/4-1.html`, `${URL}/test/4-2.html`],
     },
   },
   {
@@ -121,7 +121,7 @@ export const CLASS_INFO = [
     startDate: "2023-12-02",
     courseThumbnail: `${URL}/10.png`,
     contents: {
-      htmls: [`${URL}/test/3-1.html`],
+      htmls: [`${URL}/test/5-1.html`],
     },
   },
 ];
