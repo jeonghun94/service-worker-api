@@ -76,7 +76,17 @@ export const CLASS_INFO = [
     startDate: "2023-11-29",
     courseThumbnail: `${URL}/6.png`,
     contents: {
-      htmls: [`${URL}/test/1-1.html`, `${URL}/test/1-2.html`],
+      htmls: [
+        `${URL}/test/1-1.html`,
+        `${URL}/test/1-2.html`,
+        // `${URL}/test/2-1.html`,
+        // `${URL}/test/2-2.html`,
+        // `${URL}/test/3-1.html`,
+        // `${URL}/test/3-2.html`,
+        // `${URL}/test/4-1.html`,
+        // `${URL}/test/4-2.html`,
+        // `${URL}/test/5-1.html`,
+      ],
     },
   },
   {
